@@ -25,7 +25,7 @@
 | :--- | :--- | :--- |
 | Python Compatibility | 🟢 | Fully compliant, as shifting from live async API wrappers and complex VLM orchestration to static pre-cached subsets and deterministic math loops removes execution-blocking dependencies in free-tier Colab environments. |
 | Data Readiness | 🟢  | Highly accessible, as swapping live multi-modal web-scraping and live USDA endpoints for a pre-cached local JSON/CSV seed dataset ensures immediate pipeline ingestion. |
-| Resource Check | 🟢 | Fully optimized, as dropping heavy vision extraction and live e-commerce API pipelines stays strictly within the compute, memory, and rate limits of Google Colab's free tier. |
+| Resource Check | 🟢 | The provision of a pre-cached local JSON/CSV file is a fully optimized replacement; live e-commerce API pipelines stay strictly within the compute, memory, and rate limits of Google Colab's free tier. |
 
 ### Internal Scores
 - **Student Fit Score:** 7/10
