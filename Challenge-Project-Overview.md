@@ -57,14 +57,16 @@ This project involves building a Tool-Augmented Generation (TAG) system to autom
 ### Success Criteria
 Mean Absolute Error (MAE) of < 2% on nutrition targets across 7 days; Entity Resolution F1-score > 90%; 100% compliance with zero-repeat ingredient scheduling; Zero arithmetic hallucination (100% of math via Python scripts).
 
-### Project Milestones
-Use these milestones to guide your work. Your team will create a GitHub Projects board to track tasks within each milestone.
 | Month | Milestone | Key Activities |
-|-------|-----------|----------------|
-| **September** | Data Exploration & Preprocessing | Develop scripts for USDA API ingestion, normalize local recipe CSVs, and implement data validation pipelines to handle nutrient unit discrepancies. |
-| **October** | Feature Engineering & Baseline Modeling | Construct the Pydantic data schemas, implement the vector database for recipe retrieval, and establish the baseline Python calculation logic. |
-| **November** | Model Optimization & Evaluation | Integrate agentic frameworks for meal planning, execute stress tests against macro targets, and perform iterative hyperparameter tuning on the scheduling logic. |
-| **December** | Insights, Deliverables & Presentation | Finalize the Streamlit/Gradio web interface, conduct final evaluation logging, and compile documentation for the production-ready repository. |
+| :--- | :--- | :--- |
+| September | Architecture, Data Pipelines & Deterministic Baseline | • Ingest and structure the local recipe seed database into normalized data structures.<br>• Integrate the USDA FoodData Central (FDC) REST API with Pydantic validation schemas.<br>• Build a baseline deterministic math engine to verify exact macronutrient totals and eliminate arithmetic errors.<br>• Define evaluation benchmarks (macro math variance, target compliance rate). |
+| October | Multi-Agent Orchestration & Constraint Scaling Engine | • Construct a multi-agent state graph (using LangGraph or CrewAI) dividing tasks between Planner, Retriever, and Math Verifier agents.<br>• Implement dynamic ingredient quantity scaling algorithms to hit strict high-protein targets (e.g., 140g protein, <2,000 kcal/day).<br>• Set up vector indexing (ChromaDB / pgvector) for semantic recipe retrieval.<br>• Test multi-agent tool-calling and verify zero LLM mathematical hallucinations. |
+| November / December | System Resiliency, UI Deployment & Capstone Deliverables | • Build an error-recovery state loop to gracefully intercept API timeouts or missing FDC records.<br>• Develop an interactive Streamlit application displaying 7-day meal plans and real-time macro math verification logs.<br>• Package a clean, production-ready GitHub repository with modular tool-calling methods.<br>• Finalize project documentation, evaluation reports, and stakeholder presentation deck. |
+
+### Stretch Goals
+* **Multi-Modal Pantry Image Recognition:** Integrate a Vision-Language Model (VLM) wrapper to parse photos of pantry/fridge ingredients and automatically constrain recipe selection based on home inventory.
+* **Smart Sourcing & Grocery Cart Staging:** Programmatically map ingredient requirements to real-world store availability and stage grocery shopping actions across local storefronts.
+* **Creative Recipe Sandbox Engine:** Enable an LLM to synthesize entirely new recipe concepts while enforcing strict routing through the deterministic math validation engine prior to display.
 
 > **Note for the team:** Please create a GitHub Projects board in this repository to break these milestones into weekly tasks. Go to the **Projects** tab → **New project** → Choose **Board** → Add columns for each month.
 
