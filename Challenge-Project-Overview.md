@@ -55,7 +55,9 @@ This organization operates in the health-tech sector, focusing on personalized n
 This project involves building a Tool-Augmented Generation (TAG) system to automate high-protein Indian vegetarian meal planning while ensuring zero-hallucination arithmetic. By utilizing a hybrid architecture that pairs local recipe templates with real-time USDA nutrient density data, the team will develop a system capable of dynamically scaling ingredients to meet strict daily macro targets.
 
 ### Success Criteria
-Mean Absolute Error (MAE) of < 2% on nutrition targets across 7 days; Entity Resolution F1-score > 90%; 100% compliance with zero-repeat ingredient scheduling; Zero arithmetic hallucination (100% of math via Python scripts).
+[TBD]
+
+### Project Milestones
 
 | Month | Milestone | Key Activities |
 | :--- | :--- | :--- |
