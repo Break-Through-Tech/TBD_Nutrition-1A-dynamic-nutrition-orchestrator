@@ -63,11 +63,6 @@ Mean Absolute Error (MAE) of < 2% on nutrition targets across 7 days; Entity Res
 | October | Multi-Agent Orchestration & Constraint Scaling Engine | • Construct a multi-agent state graph (using LangGraph or CrewAI) dividing tasks between Planner, Retriever, and Math Verifier agents.<br>• Implement dynamic ingredient quantity scaling algorithms to hit strict high-protein targets (e.g., 140g protein, <2,000 kcal/day).<br>• Set up vector indexing (ChromaDB / pgvector) for semantic recipe retrieval.<br>• Test multi-agent tool-calling and verify zero LLM mathematical hallucinations. |
 | November / December | System Resiliency, UI Deployment & Capstone Deliverables | • Build an error-recovery state loop to gracefully intercept API timeouts or missing FDC records.<br>• Develop an interactive Streamlit application displaying 7-day meal plans and real-time macro math verification logs.<br>• Package a clean, production-ready GitHub repository with modular tool-calling methods.<br>• Finalize project documentation, evaluation reports, and stakeholder presentation deck. |
 
-### Stretch Goals
-* **Multi-Modal Pantry Image Recognition:** Integrate a Vision-Language Model (VLM) wrapper to parse photos of pantry/fridge ingredients and automatically constrain recipe selection based on home inventory.
-* **Smart Sourcing & Grocery Cart Staging:** Programmatically map ingredient requirements to real-world store availability and stage grocery shopping actions across local storefronts.
-* **Creative Recipe Sandbox Engine:** Enable an LLM to synthesize entirely new recipe concepts while enforcing strict routing through the deterministic math validation engine prior to display.
-
 > **Note for the team:** Please create a GitHub Projects board in this repository to break these milestones into weekly tasks. Go to the **Projects** tab → **New project** → Choose **Board** → Add columns for each month.
 
 ---
@@ -76,61 +71,78 @@ Mean Absolute Error (MAE) of < 2% on nutrition targets across 7 days; Entity Res
 **Name and Source:** USDA FoodData Central API and curated internal JSON/CSV recipe seed bank.  
 **Format:** JSON, CSV, and Vector Database Index.  
 **Size:** 1gb to 5gb  
-**Location:** Internal project repository and live USDA REST API endpoints.  
+**Location:** [TBD] 
 
 ### Key Details
-- A hybrid architecture using a local curated JSON/CSV seed database of 30–50 Indian Vegetarian recipe templates (excluding quantities and macro values) and the USDA FoodData Central API for raw ingredient nutrient densities.
-- The system must implement robust preprocessing rules to clean raw API strings into standardized nutrient floats and handle missing values in ingredient density data.
-
+- [Brief description of what's in the data]
+- [Any known limitations or preprocessing needed]
+- [Link to data dictionary or documentation, if available]
+  
 ---
 
 ## 🛠️ Suggested Approach
-**ML Problem Type:** Multi-Agent Systems & Constraint Optimization  
-**Recommended Libraries:**
-- Python
-- LangGraph or CrewAI
-- Pydantic
-- pandas
-- numpy
-- scikit-learn
-- requests
-- pgvector or chromadb
-- USDA FoodData Central API
-- LLMs (Groq, OpenAI, or Anthropic)
-**Evaluation Metrics:** MAE for nutrient targets, F1-score for entity resolution, and logical verification of arithmetic outputs.
 
+**ML Problem Type:** [e.g., Classification, Regression, NLP, Computer Vision, LLM/RAG]
+
+**Recommended Libraries:**
+- [e.g., pandas, scikit-learn, TensorFlow, Hugging Face]
+
+**Evaluation Metrics:**
+- [e.g., Accuracy, Precision/Recall, RMSE, BLEU score]
+  
 ---
 
 ## 📚 Resources to Get Started
+
 The following resources will help your team understand the problem space and potential technical approaches for this project:
+
 **Background Reading:**
-- Documentation on Tool-Augmented Generation (TAG) patterns and constrained optimization for dietary planning.
+- [e.g., Link to an article or blog post about the problem domain]
+- [e.g., Link to an industry report or case study]
+
 **Technical Tutorials:**
-- LangGraph implementation guides and USDA FoodData Central API integration manuals.
+- [e.g., Link to a free tutorial on the ML technique(s) involved]
+- [e.g., Link to documentation for a key library or tool]
+
 **Code Examples:**
-- Representative repositories demonstrating multi-agent workflows and deterministic Python math execution.
+- [e.g., Link to a relevant GitHub repo]
+- [e.g., Link to a sample implementation or starter code]
+
+**Other:**
+- [Links to any additional resources — e.g., papers, videos, podcasts, etc.]
+
+*Feel free to explore beyond these, and share anything interesting you find with me!*
 
 ---
 
 ## 🤝 How We'll Work Together
-**Check-ins:** During our biweekly 60-min AI Studio Lab Section meeting block (2nd and 4th week of every month)  
-**Communication:** Slack and project-specific email threads.  
-**Response time:** 24–48 hours for non-urgent technical queries.  
-**Recommended Tools:**
-- **Coding:** Google Colab Free Tier  
-- **Collaboration:** GitHub, Notion  
-- **Virtual Meetings:** Zoom, Google Meet  
+
+**Official check-ins:** During our biweekly 45-minute AI Studio Lab Section meeting block (2nd and 4th week of every month)
+
+ **Other ways to reach out to me with questions:** 
+* [e.g., Your team's channel within Break Through Tech’s Discord space]
+* [e.g., Email; please copy your teammates and AI Studio Coach]
+* [e.g., Request a team check-in on Zoom]
+* [Note: I will aim to respond within 48 hours. Please reach out to your AI Studio Coach with urgent questions.]
+
+> 💡 **Challenge Advisor: Please update the above based on your availability and preference. If you are not able to answer questions or meet with fellows outside of the biweekly Lab Section check-ins, simply write in "N/A (only available during the official check-in times)"**
+
+**Recommended free coding / collaboration tools**
+* […]
+* […]
 
 ---
 
 ## 🚀 Getting Started
-1. **Review this overview document** and note any questions for our first meeting.
-2. **Begin reviewing the dataset** using the link provided in the Dataset section.
-3. **Read the GitHub Projects documentation** [here](https://docs.github.com/en/issues/planning-and-tracking-with-projects/learning-about-projects/about-projects).
 
-I'm excited to work with you!
+1. **Review this overview document** and note any questions for our first meeting
+2. **Begin reviewing the dataset** using the link above
+3. **Read the GitHub Projects documentation** [here](https://docs.github.com/en/issues/planning-and-tracking-with-projects/learning-about-projects/about-projects)
+
+I’m excited to work with you!
 
 ---
 
 ## ❓ Questions?
-Please bring any questions to our first meeting during the week of August 24th (Break Through Tech's Bridge to Studio - Session B).
+
+Please bring any questions to our first meeting during the week of August 24th (Break Through Tech’s Bridge to Studio - Session C). 
