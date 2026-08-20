@@ -75,12 +75,13 @@ This project involves building a Tool-Augmented Generation (TAG) system to autom
 **Name and Source:** USDA FoodData Central API and curated internal JSON/CSV recipe seed bank.  
 **Format:** JSON, CSV, and Vector Database Index.  
 **Size:** 1gb to 5gb  
-**Location:** [TBD] 
-
+**Location:** Data folder, USDA API (refer to 'Other' section in 'Resources to get started'), https://fdc.nal.usda.gov/download-datasets (datasets can be downloaded from here as well)
 ### Key Details
-- [Brief description of what's in the data]
-- [Any known limitations or preprocessing needed]
-- [Link to data dictionary or documentation, if available]
+- Google Docs for 2 weeks worth of Recipies and ingredients for initial prototype :
+      - https://docs.google.com/document/d/1z0jDAp15grdH1b2sX_1RWf4ujwFWL8TQqnVDDiwhquk/edit?tab=t.0
+      - https://docs.google.com/document/d/1gzs383g4_NduEGuVwtXjOARhem-ko_ctZIET7PpZneM/edit?tab=t.0
+- USDA food DB csv, preferable to get ingredients and save local copy directly from the USDA API (free)
+  
   
 ---
 
@@ -99,22 +100,26 @@ This project involves building a Tool-Augmented Generation (TAG) system to autom
 ## 📚 Resources to Get Started
 
 The following resources will help your team understand the problem space and potential technical approaches for this project:
+Purpose : https://www.youtube.com/watch?v=MxV7L3rvgRw&t=5s
 
 **Background Reading:**
 - [e.g., Link to an article or blog post about the problem domain]
 - [e.g., Link to an industry report or case study]
+- Similar solution in market : https://www.hungryroot.com/?utm_source=bing&utm_medium=paid%20search&utm_campaign=409491910_1142394305641669&utm_content=ai%20for%20meal%20planning&wm_source=microsoft&wm_medium=ads&wm_ad_id=71399799407238&msclkid=08f58e2a2b2a141783b0e4ad111565f7
 
 **Technical Tutorials:**
 - [e.g., Link to a free tutorial on the ML technique(s) involved]
 - [e.g., Link to documentation for a key library or tool]
+- Hugging Face model Quantization : https://huggingface.co/docs/transformers/main/en/quantization/overview
 
 **Code Examples:**
 - [e.g., Link to a relevant GitHub repo]
 - [e.g., Link to a sample implementation or starter code]
+- Loading Huggingface models : https://huggingface.co/docs/transformers/models
 
 **Other:**
-- [Links to any additional resources — e.g., papers, videos, podcasts, etc.]
-
+- USDA API key info : https://fdc.nal.usda.gov/api-guide?ref=apitemple
+- USDA Data Documentation : https://fdc.nal.usda.gov/data-documentation 
 *Feel free to explore beyond these, and share anything interesting you find with me!*
 
 ---
