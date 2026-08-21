@@ -62,15 +62,16 @@ This project involves building a Tool-Augmented Generation (TAG) system to autom
 
   - First Phase : Build a small prototype with fixed set of recipes (provided in data section). To do this download from USDA API and create a local data set of ingredients in the given recipe. Build a React style single agent that accepts as input user requirements and then calls the macro calculation tool (created by students) to create a daily and then weekly plan with constraints specified by the user. The macro calculation tool makes AP calls/local database of ingredients calculates the macros/protein for the day. The NLP tool match can do the NLP match to select the right ingredient FDC ID and pass it on to the macro calculation tool.
   - Use a local quantized model using hugging face transformers/ ollama as the memory requirements will be lower.
+  
     Second Phase : The first phase depended on NLP/keyword based match to select ingredients. In second phase we expand to create a vector DB of ingredients that allows for semantic match for ingredients to fit in existing recipes when the provided macros are not achievable by the provided ingredients in the existing recipes.
     Use a localized LLM using whatever architecture was used in the first phase, either Hugging Face Transformers or LLMs, for this phase, as the memory requirements will increase compared to the first phase.
+    
     - 3rd Phase :  This phase the LLM, using the existing recipes as reference, can create entirely new recipes which hold the cultural influence and the user constraints to create new recipes. 
 ---
 
 ## 📚 Resources to Get Started
 
-The following resources will help your team understand the problem space and potential technical approaches for this project:
-Purpose : https://www.youtube.com/watch?v=MxV7L3rvgRw&t=5s
+The following resources will help your team understand the problem space and potential technical approaches for this project: https://www.youtube.com/watch?v=MxV7L3rvgRw&t=5s
 
 **Background Reading:**
 - Title :  AI-Driven Personalized Meal Planning: A Web-based Platform for Tailored Nutrition
