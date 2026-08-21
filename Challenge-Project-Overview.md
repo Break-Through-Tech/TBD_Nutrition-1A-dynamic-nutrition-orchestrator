@@ -18,8 +18,8 @@ This organization operates in the health-tech sector, focusing on personalized n
 This project involves building a Tool-Augmented Generation (TAG) system to automate high-protein Indian vegetarian meal planning while ensuring zero-hallucination arithmetic. By utilizing a hybrid architecture that pairs local recipe templates with real-time USDA nutrient density data, the team will develop a system capable of dynamically scaling ingredients to meet strict daily macro targets.
 
 ### Success Criteria
-1)Macro Optimization Precision: The final orchestrator must achieve a Mean Absolute Error (MAE) of $< 2\%$ across a full 7-day generation cycle. If the target window requires exactly 140g of protein per day, the final composite calculations must consistently land between 137.2g and 142.8g based on USDA data.
-2)Entity Resolution Accuracy (F1-Score): The team’s string-matching and vector embedding pipeline must achieve an F1-score of $> 90\%$ on an unseen validation set of 30 common Indian vegetarian ingredients.
+1)Macro Optimization Precision: The final orchestrator must achieve a Mean Absolute Error (MAE) of $< 2\%$ across a full 7-day generation cycle. If the target window requires exactly 140g of protein per day, the final composite calculations must consistently land between 137.2g and 142.8g based on USDA data.   
+2)Entity Resolution Accuracy (F1-Score): The team’s string-matching and vector embedding pipeline must achieve an F1-score of $> 90\%$ on an unseen validation set of 30 common Indian vegetarian ingredients.   
 3)Scheduling Constraint Adherence: The algorithm must demonstrate 100% compliance with zero-repeat ingredient logic rules across any consecutive 48-hour block to guarantee real-world lifestyle variety.
 
 ### Project Milestones
