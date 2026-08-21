@@ -73,17 +73,27 @@ Purpose : https://www.youtube.com/watch?v=MxV7L3rvgRw&t=5s
 **Background Reading:**
 - [e.g., Link to an article or blog post about the problem domain]
 - [e.g., Link to an industry report or case study]
+- Title :  AI-Driven Personalized Meal Planning: A Web-based Platform for Tailored Nutrition
+      - Type: Peer-reviewed research paper
+      - Summary: Describes a web-based AI platform that generates weekly meal plans based on user health data, dietary preferences, and restrictions. It             uses optimization algorithms to balance nutrition, taste, and convenience.
+      - Link : https://www.ijcaonline.org/archives/volume187/number57/hussain-2025-ijca-925913.pdf
+-Title :NutriGen: Personalized Meal Plan Generator Leveraging Large Language Models
+      - Type: preprint research paper
+      - Summary: Describes a web-based AI platform that generates weekly meal plans based on user health data, dietary preferences, and restrictions. It             uses optimization algorithms to balance nutrition, taste, and convenience.
+      - Link : https://arxiv.org/pdf/2502.20601
 - Similar solution in market : https://www.hungryroot.com/?utm_source=bing&utm_medium=paid%20search&utm_campaign=409491910_1142394305641669&utm_content=ai%20for%20meal%20planning&wm_source=microsoft&wm_medium=ads&wm_ad_id=71399799407238&msclkid=08f58e2a2b2a141783b0e4ad111565f7
 
 **Technical Tutorials:**
 - [e.g., Link to a free tutorial on the ML technique(s) involved]
 - [e.g., Link to documentation for a key library or tool]
+- Loading Huggingface models : https://huggingface.co/docs/transformers/models
 - Hugging Face model Quantization : https://huggingface.co/docs/transformers/main/en/quantization/overview
+- Working with Ollama : https://computingforgeeks.com/ollama-models-cheat-sheet/
 
 **Code Examples:**
 - [e.g., Link to a relevant GitHub repo]
 - [e.g., Link to a sample implementation or starter code]
-- Loading Huggingface models : https://huggingface.co/docs/transformers/models
+
 
 **Other:**
 - USDA API key info : https://fdc.nal.usda.gov/api-guide?ref=apitemple
