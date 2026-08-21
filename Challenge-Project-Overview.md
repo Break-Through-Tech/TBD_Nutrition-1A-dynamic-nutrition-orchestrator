@@ -3,7 +3,7 @@
 **Company / Org:** Other  
 **Challenge Advisor:** FNU Sakshi, sakshi.lindner@gmail.com 
 
-**AI Studio Coach:** Sai Duddu
+**AI Studio Coach:** Sai Duddu   
 **Program:** Break Through Tech AI Studio - Fall 2026  
 
 ---
