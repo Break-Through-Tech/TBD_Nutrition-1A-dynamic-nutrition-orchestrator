@@ -8,7 +8,7 @@
 
 ---
 
-## 🏢 About Other
+## 🏢 About the Organization
 This organization operates in the health-tech sector, focusing on personalized nutrition and dietary wellness technology. The team aims to bridge the gap between traditional meal planning and data-driven precision by leveraging multi-agent systems to solve complex dietary constraint problems.
 
 ---
