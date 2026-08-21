@@ -78,10 +78,12 @@ The following resources will help your team understand the problem space and pot
       - Type: Peer-reviewed research paper
       - Summary: Describes a web-based AI platform that generates weekly meal plans based on user health data, dietary preferences, and restrictions. It             uses optimization algorithms to balance nutrition, taste, and convenience.
       - Link : https://www.ijcaonline.org/archives/volume187/number57/hussain-2025-ijca-925913.pdf
+  
 -Title :NutriGen: Personalized Meal Plan Generator Leveraging Large Language Models
       - Type: preprint research paper
       - Summary: Describes a web-based AI platform that generates weekly meal plans based on user health data, dietary preferences, and restrictions. It             uses optimization algorithms to balance nutrition, taste, and convenience.
       - Link : https://arxiv.org/pdf/2502.20601
+      
 - Similar solution in market : https://www.hungryroot.com/?utm_source=bing&utm_medium=paid%20search&utm_campaign=409491910_1142394305641669&utm_content=ai%20for%20meal%20planning&wm_source=microsoft&wm_medium=ads&wm_ad_id=71399799407238&msclkid=08f58e2a2b2a141783b0e4ad111565f7
 
 **Technical Tutorials:**
